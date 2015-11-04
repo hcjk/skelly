@@ -29,3 +29,9 @@ body {
     text-align: center;
     padding: 10px;
 }
+
+a {
+    text-decoration: none;
+    color: #45a1de;
+    padding-right: 10px;
+}
