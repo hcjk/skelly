@@ -1,37 +1,40 @@
-@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
-body {
-    font-family: 'Slabo 27px', serif;
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+* {
+    margin: 0;
+    padding: 0;
 }
-
+html, body {
+    font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
 .content {
     padding: 50px 0;
     width: 80%;
     margin: 0 auto;
     color: #333;
 }
-
-.content h1,
-.content p {
+.content h1, .content p {
     text-align: center;
     padding-bottom: 15px;
 }
-
 .content h3 {
     text-align: center;
     padding: 25px;
 }
-
 .col {
-    border: solid;
-    border-width: 1px;
-    border-color: #c7c7cc;
+    background-color: #59ABE3;
+    color: #fff;
     border-radius: 6px;
     text-align: center;
     padding: 10px;
+    font-weight: 600;
 }
-
 a {
     text-decoration: none;
-    color: #45a1de;
+    color: #59ABE3;
     padding-right: 10px;
+    font-weight: 600;
 }
